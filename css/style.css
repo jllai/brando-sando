@@ -1,23 +1,37 @@
-h1, h2, h3, h4 {
-	font-family: "trajan-sans-pro", sans-serif;
+/*General stuff*/
+
+h1, h2, h3, h4, nav {
+	font-family: 'Cinzel';
 }
 
-p {
-	font-family: Calibri
-}
-
-img {
-	width: 20%
+body {
+	font-family: 'Lato';
 }
 
 .banner {
 	width: 100%;
 }
 
-nav {
+h1.title {
+	position: absolute;
 	text-align: center;
-	background-color: #9975b9;
+	top: -5%;
+	width: 100%;
+	line-height: 115px;
+	font-size: 96px;
+	color: #ffc200;
+	opacity: .75;
+}
+
+/*Nav*/
+
+nav.main {
+	position: fixed;
+	top: 0;
+	text-align: center;
+	background-color: #01365b;
 	padding: 5px;
+	width: 100%;
 }
 
 nav ul li {
@@ -26,10 +40,136 @@ nav ul li {
 }
 
 nav a {
+	font-size: 14px;
 	text-decoration: none;
-}
-
-nav a:link {
 	color: white;
 }
 
+.explore {
+	text-align: center;
+	position: relative;
+	top: -20px;
+	font-family: 'Cinzel';
+}
+
+/*Main page*/
+
+.start {
+	text-align: center;
+	position: relative;
+	font-size: 21px;
+	top: -20px;
+}
+
+.roadmap {
+	text-align: center;
+	font-size: 14px;
+}
+
+.roadmap ul {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.reading {
+	font-family: 'Cinzel';
+	border: solid 1px #007aff;
+	margin: -20px;
+    padding: 20px;
+    border-radius: 5px;
+	color: #707070;	
+	justify-content: center;
+}
+
+.author_note {
+	font-size: 18px;
+	padding: 5%;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.author_note b {
+	font-family: 'Cinzel';
+}
+
+/*Main stuff for Book series pages*/
+
+.summary {
+	display: flex;
+	padding: 2%;
+	border: solid 2px #a30000;
+	border-radius: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 30px;
+}
+
+.intro {
+	margin-right: 20px;
+}
+
+.synopsis {
+	margin-left: 20px;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.images img {
+	display: inline-block;
+	height: 250px;
+	padding-bottom: 20px;
+}
+
+.section-headers {
+	margin-left: 10%;
+}
+
+.magic {
+	display: flex;
+	justify-content: space-between;
+	border: solid 2px #a30000;
+	border-radius: 5px;
+	padding: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+/*Mistborn*/
+
+.mag-desc {
+	text-align: center;
+}
+
+.magic h3 {
+	text-align: center;
+}
+
+.metals {
+	position: relative;
+	margin-top: 24%;
+	padding-right: 20px;
+}
+
+.metals h4 {
+	padding-bottom: 52px
+}
+
+.allomancy {
+	padding-right: 20px;
+}
+
+.allomancy p {
+	padding-bottom: 16.5px
+}
+
+.feruchemy {
+	display: inline-block;
+	padding-left: 20px;
+}
