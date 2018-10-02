@@ -97,7 +97,7 @@ nav a {
 .summary {
 	display: flex;
 	padding: 2%;
-	border: solid 2px #a30000;
+	border: solid 2px;
 	border-radius: 5px;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -143,6 +143,10 @@ nav a {
 
 /*Mistborn*/
 
+.mistborn-sum {
+	border-color: #a30000;
+}
+
 .mag-desc {
 	text-align: center;
 }
@@ -172,4 +176,81 @@ nav a {
 .feruchemy {
 	display: inline-block;
 	padding-left: 20px;
+}
+
+/*Elantris*/
+
+.elantris-color {
+	border-color: #ffbc00;
+}
+
+.spell {
+	flex-direction: column;
+	text-align: center;
+}
+
+.aondor {
+	margin-bottom: 50px;
+}
+
+.aon {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-right: 8%;
+	margin-left: 8%;
+	grid-row-gap: 20px; 
+} 
+
+.aon img {
+	display: inline-block;
+	max-height: 50px;
+
+}
+
+ /*Warbreaker*/
+
+.warbreaker-color {
+	border-image: linear-gradient(to bottom, red, orange, yellow, green, blue, purple);
+	border-image-slice: 1;
+}
+
+.war-mag {
+	text-align: center;
+	flex-wrap: wrap;
+}
+.breath-types{
+	display: flex;
+}
+
+.type1 {
+	margin-right: 30px;
+}
+
+.type3 {
+	margin-left: 20px; 
+}
+/*
+.triangle {
+	display: flex;
+	position: absolute;
+	height: 1000px;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 600px solid #555;
+}*/
+
+h3.heightening {
+	text-align: center;
+}
+
+.heightening-num {
+	width: 100%;
+	text-align: center;
+	font-family: 'Cinzel';
+}
+
+/*Stormlight Archives*/
+
+.stormlight-color {
+	border-color: #b3ffff;
 }
