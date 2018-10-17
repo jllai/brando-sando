@@ -2,25 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Brandon Sanderson - Homepage</title>
+	<title>Brandon Sanderson - Home Page</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome stuff -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Lato" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
 	<h1 class="title">Welcome to the <br>Cosmere</h1>
 
 	<img src="img/cosmere.jpg" class="banner" alt="cosmere constellation">
+
 	<nav class="main">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="mistborn.html">Mistborn</a></li>
-			<li><a href="elantris.html">Elantris</a></li>
-			<li><a href="warbreaker.html">Warbreaker</a></li>
-			<li><a href="sa.html">Stormlight Archives</a></li>
-			<li><a href="about.html">About the Author</a></li>
+		<ul class="nav nav-fill">
+			<li class="nav-item"><a href="index.html">Home</a></li>
+			<li class="nav-item"><a href="mistborn.html">Mistborn</a></li>
+			<li class="nav-item"><a href="elantris.html">Elantris</a></li>
+			<li class="nav-item"><a href="warbreaker.html">Warbreaker</a></li>
+			<li class="nav-item"><a href="sa.html">Stormlight Archives</a></li>
+			<li class="nav-item"><a href="about.html">About the Author</a></li>
 		</ul>
 	</nav>
 
@@ -28,29 +38,41 @@
 
 	<h2 class="start">Where do I start?</h2>
 
-	<img src="img/cosmere background.png" alt="Cosmere symbol" class="background">
+	<div class="background"></div>
 
 	<!-- NOTE: This part will eventually be a clickable flowchart -->
 
 	<nav class="roadmap">
 		<ul class="mistborn">
+			<li class="world">Scadriel</li>
 			<li><a href="mistborn.html#tfe" class="reading">The Final Empire</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="mistborn.html#woa" class="reading">Well of Ascension</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="mistborn.html#hoa" class="reading">Hero of Ages</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="mistborn.html#aol" class="reading">Alloy of Law</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="mistborn.html#sos" class="reading">Shadows of Self</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="mistborn.html#bom" class="reading">Bands of Mourning</a></li>
 		</ul>
 		<ul class="elantris">
+			<li class="world">Sel</li>
 			<li><a href="elantris.html" class="reading">Elantris</a></li>
 		</ul>
 		<ul class="warbreaker">
+			<li class="world">Nalthis</li>
 			<li><a href="warbreaker.html#warbreaker" class="reading">Warbreaker</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="warbreaker.html#nightblood" class="reading">Nightblood</a></li>
 		</ul>
 		<ul class="read">
+			<li class="world">Roshar</li>
 			<li><a href="sa.html#twok" class="reading">The Way of Kings</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="sa.html#wor" class="reading">Words of Radiance</a></li>
+			<i class="fas fa-long-arrow-alt-down"></i>
 			<li><a href="sa.html#oathbringer" class="reading">Oathbringer</a></li>
 		</ul>
 	</nav>
