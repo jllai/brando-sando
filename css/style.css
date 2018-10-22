@@ -86,6 +86,7 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: start;
+	margin: 0 10% 0 10%;
 }
 
 .world {
@@ -96,7 +97,7 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-top: 50px;
-	grid-gap: 20px;
+	grid-gap: 10px;
 }
 
 .fa-long-arrow-alt-down {
@@ -113,7 +114,7 @@ nav a:hover {
 }
 
 .author_note {
-	font-size: 18px;
+	text-align: center;
 	padding: 5%;
 	margin-left: 10%;
 	margin-right:10%;
@@ -189,16 +190,24 @@ nav a:hover {
 }
 
 .metals h4 {
-	padding-bottom: 52px
+	height: 16.3vh;
+}
+
+.empty {
+	height: 47vh;
+}
+
+.mag-desc {
+	height: 40vh;
 }
 
 .allomancy {
 	text-align: center;
-	padding-right: 20px;
+	padding: 0 5% 0 5%;
 }
 
-.allomancy p {
-	padding-bottom: 16.5px
+.allomancy p, .feruchemy p {
+	height: 15vh;
 }
 
 .feruchemy {
@@ -220,17 +229,23 @@ nav a:hover {
 .aon {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-right: 8%;
-	margin-left: 8%;
+	margin-right: 10%;
+	margin-left: 10%;
 	grid-row-gap: 20px; 
-	margin-top: 5%;
+	margin-top: 3%;
 } 
+
+.spell {
+	height: 100%;
+	display: flex;
+}
 
 .aon img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 10% 0 10% 0;
 }
 
  /*Warbreaker*/
@@ -318,7 +333,7 @@ nav a:hover {
 	color: #a1ddff;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
 	/*General stuff*/
 	h2 {
 		font-size: 20px;
@@ -417,23 +432,13 @@ nav a:hover {
 		text-align: center;
 	}
 
-	.aondor {
-		margin-bottom: 50px;
-		font-size: 12px;
-	}
-
 	.aon {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin-right: 8%;
-		margin-left: 8%;
+		margin-right: 10%;
+		margin-left: 10%;
 		grid-row-gap: 20px;
-		font-size: 10px;
 	} 
-
-	.aon h4 {
-		font-size: 14px;
-	}
 
 	.aon img {
 		display: block;
@@ -549,10 +554,6 @@ nav a:hover {
 		font-size: 8px;
 	}
 
-	.reading {
-		margin: -50px;
-	    border-radius: 5px;
-	}
 	/*Main stuff for Book series pages*/
 	.summary {
 		display: grid;
@@ -575,7 +576,6 @@ nav a:hover {
 	.images img {
 		display: inline-block;
 		height: 20vh;
-		padding-bottom: 20px;
 	}
 
 	.magic {
@@ -629,10 +629,9 @@ nav a:hover {
 	.aon {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin-right: 8%;
-		margin-left: 8%;
+		margin-right: 10%;
+		margin-left: 10%;
 		grid-row-gap: 20px;
-		font-size: 10px;
 	} 
 
 	.aon img {
@@ -652,12 +651,10 @@ nav a:hover {
 	.war-mag {
 		text-align: center;
 		flex-wrap: wrap;
-		font-size: 10px;
 	}
 	.breath-types{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		font-size: 10px;
 		margin: 3%;
 		grid-row-gap: 25px; 
 	}
@@ -693,7 +690,6 @@ nav a:hover {
 		line-height: 15px;
 		margin-left: 10%;
 		margin-right: 10%;
-		font-size: 10px;
 	}
 
 	.profile {
