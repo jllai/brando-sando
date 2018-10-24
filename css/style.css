@@ -183,36 +183,12 @@ nav a:hover {
 
 .metals {
 	display: grid;
-	grid-template-columns: .5fr 1fr 1fr;
-	align-items: start;
-	grid-row-gap: 20px;
-
+	grid-template-columns: .25fr 1fr 1fr;
+	grid-row-gap: 5px;
 }
 
-.metals h4 {
-	height: 16.3vh;
-}
-
-.empty {
-	height: 47vh;
-}
-
-.mag-desc {
-	height: 40vh;
-}
-
-.allomancy {
-	text-align: center;
-	padding: 0 5% 0 5%;
-}
-
-.allomancy p, .feruchemy p {
-	height: 15vh;
-}
-
-.feruchemy {
-	text-align: center;
-	padding-left: 20px;
+.metal h4 {
+	font-size: 12px;
 }
 
 /*Elantris*/
@@ -301,6 +277,8 @@ nav a:hover {
 
 .profile {
 	height: 40vh;
+	float: left;
+    padding-right: 5%;
 }
 
 .brandon {
@@ -417,8 +395,14 @@ nav a:hover {
 		border-color: #a30000;
 	}
 
-	.metals p {
-		font-size: 10px;
+	.magic h3 {
+	text-align: center;
+	}
+
+	.metals {
+		display: grid;
+		grid-template-columns: .25fr 1fr 1fr;
+		grid-row-gap: 5px;
 	}
 
 	/*Elantris*/
@@ -595,20 +579,14 @@ nav a:hover {
 		border-color: #a30000;
 	}
 
-	.mag-desc {
-		text-align: center;
-	}
-
 	.magic h3 {
-		text-align: center;
+	text-align: center;
 	}
 
-	.metals h4 {
-		padding-bottom: 52px;
-	}
-
-	.metals p {
-		font-size: 8px;
+	.metals {
+		display: grid;
+		grid-template-columns: .25fr 1fr 1fr;
+		grid-row-gap: 5px;
 	}
 
 	/*Elantris*/
