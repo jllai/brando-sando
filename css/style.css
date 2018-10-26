@@ -198,6 +198,11 @@ footer {
 	font-size: 20px;
 }
 
+.metals p {
+	height: 100%;
+	display: flex-inline;
+}
+
 .mag-desc {
 	text-align: center;
 }
@@ -337,6 +342,12 @@ footer {
 
 	p {
 		font-size: 12px;
+	}
+
+	.banner {
+	display: block;
+	width: 100%;
+	justify-content: center;
 	}
 
 	h1.title{ 
@@ -595,8 +606,15 @@ footer {
 
 	.metals {
 		display: grid;
-		grid-template-columns: .25fr 1fr 1fr;
-		grid-row-gap: 5px;
+		grid-template-columns: .5fr 1fr 1fr;
+	}
+
+	.metals h4 {
+		font-size: 6px;
+		/*transform: rotate(270deg);*/
+		display: flex;
+		justify-content: left;
+		align-content: left;
 	}
 
 	/*Elantris*/
@@ -619,7 +637,7 @@ footer {
 		grid-template-columns: 1fr 1fr;
 		margin-right: 10%;
 		margin-left: 10%;
-		grid-row-gap: 20px;
+		grid-row-gap: 10px;
 	} 
 
 	.aon img {
