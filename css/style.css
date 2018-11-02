@@ -145,6 +145,8 @@ footer {
 
 .intro, .synopsis {
 		padding: 0 2% 0 2%;
+		height: 500px;
+		overflow: auto;
 }
 
 .images {
