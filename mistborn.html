@@ -16,33 +16,32 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+	<!-- Lightbox -->
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<h1 class="title">Mistborn</h1>
 
-	<img src="img/mistborn/gisalmeida-main.jpg" class="banner" alt="cosmere constellation">
+	<div class="parallax mist-ban"></div>
 
-	<nav class="main">
-		<ul class="nav nav-fill">
-			<li class="nav-item"><a href="index.html">Home</a></li>
-			<li class="nav-item"><a href="mistborn.html">Mistborn</a></li>
-			<li class="nav-item"><a href="elantris.html">Elantris</a></li>
-			<li class="nav-item"><a href="warbreaker.html">Warbreaker</a></li>
-			<li class="nav-item"><a href="sa.html">Stormlight Archives</a></li>
-			<li class="nav-item"><a href="about.html">About the Author</a></li>
-		</ul>
+	<!-- Responsive Nav Bar -->
+	<nav class="main nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	   		<img src="img/cos_background.png" alt="top icon">
+	  	</button>
+  		<div class="navbar-nav">
+  			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link active" href="mistborn.html">Mistborn</a>
+			<a class="nav-item nav-link" href="elantris.html">Elantris</a>
+			<a class="nav-item nav-link" href="warbreaker.html">Warbreaker</a>
+			<a class="nav-item nav-link" href="sa.html">Stormlight Archives</a>
+			<a class="nav-item nav-link" href="author.html">About the Author</a>
+	  	</div>
 	</nav>
-
-	<!-- <nav>
-		<ul>
-			<li><a href=#intro class="page-link">Introduction</a></li>
-			<li><a href=#synopsis class="page-link">Synopsis</a></li>
-			<li><a href=#artwork class="page-link">Artwork</a></li>
-			<li><a href=#magicsystem class="page-link">Magic System</a></li>
-		</ul>
-	</nav> -->
 
 	<h4 class="explore">Explore</h4>
 
@@ -71,26 +70,25 @@
 	<h2 class="section-headers">Artwork</h2>
 
 	<div class="images">
-		<img src="img/mistborn/final_empire_map.jpg" alt="Final Empire map">
-		<img src="img/mistborn/gisalmeida.jpg" alt="Kelsier and Vin by gisalmeida">
-		<img src="img/mistborn/gondalier.jpg" alt="The Crew by gondalier">
-		<img src="img/mistborn/marc-simonetti.jpg" alt="Kelsier in his Mistcloak by Marc Simonetti">
-		<img src="img/mistborn/vargas.jpg" alt="Vin and her wolfhound by vargas">
-		<img src="img/mistborn/vin-elend.jpg" alt="Vin and Elend">
-		<img src="img/mistborn/vin.jpg" alt="Vin atop Kredik Shaw">
-		<img src="img/mistborn/inkthinker.jpg" alt="Koloss">
-		<img src="img/mistborn/inquisitor.jpg" alt="Steel Inquisitor">
-		<img src="img/mistborn/mistwraith.jpg" alt="mistwraith">
-		<img src="img/mistborn/marcsimonetti.jpg" alt="Elend and Vin fighting Koloss by Marc Simonetti">
+		<a href="img/mistborn/final_empire_map.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/final_empire_map.jpg" alt="Final Empire map"></a>
+		<a href="img/mistborn/gisalmeida.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/gisalmeida.jpg" alt="Kelsier and Vin by gisalmeida"></a>
+		<a href="img/mistborn/gondalier.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/gondalier.jpg" alt="The Crew by gondalier"></a>
+		<a href="img/mistborn/marc-simonetti.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/marc-simonetti.jpg" alt="Kelsier in his Mistcloak by Marc Simonetti"></a>
+		<a href="img/mistborn/vargas.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/vargas.jpg" alt="Vin and her wolfhound by vargas"></a>
+		<a href="img/mistborn/vin-elend.jpg" class="s all mix" data-lightbox="mistborn"><img src="img/mistborn/vin-elend.jpg" alt="Vin and Elend"></a>
+		<a href="img/mistborn/vin.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/vin.jpg" alt="Vin atop Kredik Shaw"></a>
+		<a href="img/mistborn/inkthinker.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/inkthinker.jpg" alt="Koloss"></a>
+		<a href="img/mistborn/inquisitor.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/inquisitor.jpg" alt="Steel Inquisitor"></a>
+		<a href="img/mistborn/mistwraith.jpg" class="ns all mix" data-lightbox="mistborn"><img src="img/mistborn/mistwraith.jpg" alt="mistwraith"></a>
+		<a href="img/mistborn/marcsimonetti.jpg" class="s all mix" data-lightbox="mistborn"><img src="img/mistborn/marcsimonetti.jpg" alt="Elend and Vin fighting Koloss by Marc Simonetti"></a>
 	</div>
 
 	<h2 class="section-headers">Magic System</h2>
 
 	<div class="magic metals">
-			<div class="empty"></div>
+		<div class="empty"></div>
 			<h3>Allomancy</h3>
 			<h3>Feruchemy</h3>
-
 			<div class="empty"></div>
 			<p class="mag-desc">When a person is born with the hereditary Allomantic ability, they cannot burn metals until the Allomantic ability is awakened in them. The process of Allomancy being activated within a person is called Snapping. Once an Allomancer has Snapped, they will feel a reserve of power in their stomach when they have ingested a metal they can burn. The metals are usually ingested by drinking specifically prepared metal vials, which contain metal flakes suspended in an alcohol solution. <a href="https://coppermind.net/wiki/Allomancy">Learn more</a></p>
 			<p class="mag-desc">Feruchemy is an end-neutral art, meaning thta power is neither gained nor lost. The art also requires metal as a focus, but instead of being consumed, the metal acts as a medium by which ablities within the practitioner are shuttled through time. Invest that metal on one day, withdraw the power on another day.</p>
@@ -161,4 +159,22 @@
 		</div>
 	</div>
 	<footer></footer>
+
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/lightbox.js"></script>
+
+	<script>
+		(function($) {          
+		    $(document).ready(function(){                    
+		        $(window).scroll(function(){                          
+		            if ($(this).scrollTop() > 0) {
+		                $('.main').fadeIn(300);
+		            } else {
+		                $('.main').fadeOut(300);
+		            }
+		        });
+		        $('body').fadeIn(1000);
+		    });
+		})(jQuery);
+	</script>
 </body>

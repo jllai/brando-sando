@@ -12,6 +12,10 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+	<!-- Lightbox -->
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Lato" rel="stylesheet">
@@ -22,31 +26,26 @@
 <body>
 	<h1 class="title">Warbreaker</h1>
 
-	<img src="img/warbreaker/warbreaker-main.jpg" class="banner" alt="Warbreaker main pic">
+	<div class="parallax war-ban"></div>
 
-	<nav class="main">
-		<ul class="nav nav-fill">
-			<li class="nav-item"><a href="index.html">Home</a></li>
-			<li class="nav-item"><a href="mistborn.html">Mistborn</a></li>
-			<li class="nav-item"><a href="elantris.html">Elantris</a></li>
-			<li class="nav-item"><a href="warbreaker.html">Warbreaker</a></li>
-			<li class="nav-item"><a href="sa.html">Stormlight Archives</a></li>
-			<li class="nav-item"><a href="about.html">About the Author</a></li>
-		</ul>
+	<!-- Responsive Nav Bar -->
+	<nav class="main nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	   		<img src="img/cos_background.png" alt="top icon">
+	  	</button>
+  		<div class="navbar-nav">
+  			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="mistborn.html">Mistborn</a>
+			<a class="nav-item nav-link" href="elantris.html">Elantris</a>
+			<a class="nav-item nav-link active" href="warbreaker.html">Warbreaker</a>
+			<a class="nav-item nav-link" href="sa.html">Stormlight Archives</a>
+			<a class="nav-item nav-link" href="author.html">About the Author</a>
+	  	</div>
 	</nav>
-
-	<!-- <nav>
-		<ul>
-			<li><a href=#synopsis>Synopsis</a></li>
-			<li><a href=#Artwork>Artwork</a></li>
-			<li><a href=#magicsystem>Magic System</a></li>
-		</ul>
-	</nav> -->
 
 	<h4 class="explore">Explore</h4>
 
 	<div class="summary warbreaker-color">
-
 		<div class="intro">
 			<h2>Intro</h2>
 			<p>A while back—June 2006—I started work on the novel which would follow my Mistborn trilogy. At the time, I noticed the work of Cory Doctorow, who releases all of his books on-line at the same time as the hardback comes out from Tor. At first, I thought this was insane. If you give it away for free, nobody will buy it!</p>
@@ -59,9 +58,7 @@
 		</div>
 
 		<div class="synopsis">
-
 			<h2>Synopsis</h2>
-
 			<p>It’s been almost ten years since I started the first draft of ELANTRIS. It was my sixth book, and it took me four years or so to eventually sell it. By the time I did get a book deal and release the book, I’d moved on to the Mistborn books.</p>
 			<p>Still, ELANTRIS is very special to me, and I’m still planning to do sequels some day. Why do I bring that up here? Well, there is one thing about ELANTRIS that has always kind of bothered me. It’s not a terrible thing—the book turned out way better than I had any right to expect at that point in my career, and still stands as the book I’ve written with the best ‘high concept’ ideas. However, the book focuses on a kingdom where regular people are turned into gods—yet, the nature of the plot line makes it so that you never get to SEE what it’s like to have to live as a god after gaining all of these divine powers. (ELANTRIS focuses on a period of time where the magic doesn’t work, and the once-gods have lost their abilities and caught a terrible disease instead.)</p>
 			<p>I wouldn’t change ELANTRIS, but I’ve always kind of wished that I could write a book that actually focused on what it was LIKE to have to live with all of the expectations of being transformed into a deity. How would that affect a person? What if they, themselves, didn’t believe that their powers made them a god—yet everyone else did believe it? Could you have a god who didn’t believe in his own religion?</p>
@@ -72,76 +69,94 @@
 	</div>
 
 	<h2 class="section-headers">Artwork</h2>
-
 	<div class="images">
-		<img src="img/warbreaker/map.jpg" alt="Map of Hallandren">
-		<img src="img/warbreaker/demon_cabbage.png" alt="Glass Eye to Warbreaker">
-		<img src="img/warbreaker/fetsch.jpg" alt="Vasher and Nightblood">
-		<img src="img/warbreaker/breath_art.jpg" alt="Chinese version of Warbreaker">
-		<img src="img/warbreaker/axt234.jpg" alt="Blushweaver">
-		<img src="img/warbreaker/dsillustration.jpg" alt="Vivenna and Breath">
+		<a href="img/warbreaker/map.jpg" class="all ns mix" data-lightbox="warbreaker"><img src="img/warbreaker/map.jpg" alt="Map of Hallandren"></a>
+		<a href="img/warbreaker/demon_cabbage.png" class="all ns mix" data-lightbox="warbreaker"><img src="img/warbreaker/demon_cabbage.png" alt="Glass Eye to Warbreaker"></a>
+		<a href="img/warbreaker/fetsch.jpg" class="all ns mix" data-lightbox="warbreaker"><img src="img/warbreaker/fetsch.jpg" alt="Vasher and Nightblood"></a>
+		<a href="img/warbreaker/breath_art.jpg" class="all ns mix" data-lightbox="warbreaker"><img src="img/warbreaker/breath_art.jpg" alt="Chinese version of Warbreaker"></a>
+		<a href="img/warbreaker/axt234.jpg" class="all ns mix" data-lightbox="warbreaker"><img src="img/warbreaker/axt234.jpg" alt="Blushweaver"></a>
+		<a href="img/warbreaker/dsillustration.jpg" class="all s mix" data-lightbox="warbreaker"><img src="img/warbreaker/dsillustration.jpg" alt="Vivenna and Breath"></a>
 	</div>
 
-		<h2 class="section-headers">Magic System</h2>
+	<h2 class="section-headers">Magic System</h2>
 
-		<div class="magic warbreaker-color war-mag">
-			<div class="breath-sum">
-				<h3>Breath</h3>
-				<p>BioChromatic Breath, also known simply as Breath, is the power of life on Nalthis. Every living being is born with a certain BioChromatic Investiture. When a person dies, the Breath they were carrying returns to Endowment. Humans are able to use their Breath to perform Awakening as well as gaining benefits from having more than one Breath.</p>
-				<p>Awakening is the process by which an Awakener uses his stored BioChromatic Breath to animate an object. To do so, he issues a Command in his native tongue while visualizing the action he wants the object to complete. The Commands are the key part of Awakening, and the skill of an Awakener depends on his ability to use Commands correctly.</p>
+	<div class="magic warbreaker-color war-mag">
+		<div class="breath-sum">
+			<h3>Breath</h3>
+			<p>BioChromatic Breath, also known simply as Breath, is the power of life on Nalthis. Every living being is born with a certain BioChromatic Investiture. When a person dies, the Breath they were carrying returns to Endowment. Humans are able to use their Breath to perform Awakening as well as gaining benefits from having more than one Breath.</p>
+			<p>Awakening is the process by which an Awakener uses his stored BioChromatic Breath to animate an object. To do so, he issues a Command in his native tongue while visualizing the action he wants the object to complete. The Commands are the key part of Awakening, and the skill of an Awakener depends on his ability to use Commands correctly.</p>
+		</div>
+		<div class="breath-types">
+			<div class="type">
+				<h4>Type I</h4>
+				<p>Spontaneous Sentient BioChromatic Manifestations in a Deceased Host, also known as the Returned, are the only known natural BioChromatic entity. They retain sentience after being Returned (by Endowment) following death, and are endowed with a divine Breath. Returned are able to Awaken normally using any Breaths on top of their divine Breath, but giving away the divine Breath results in death.</p>
+				<p>The divine Breath, a single powerful Breath that grants the powers of the first five Heightenings, is a Splinter of Endowment. Giving away the divine Breath to another person will instantly heal that person, at the cost of the life of the Returned.</p>
 			</div>
-			<div class="breath-types">
-				<div class="type">
-					<h4>Type I</h4>
-					<p>Spontaneous Sentient BioChromatic Manifestations in a Deceased Host, also known as the Returned, are the only known natural BioChromatic entity. They retain sentience after being Returned (by Endowment) following death, and are endowed with a divine Breath. Returned are able to Awaken normally using any Breaths on top of their divine Breath, but giving away the divine Breath results in death.</p>
-					<p>The divine Breath, a single powerful Breath that grants the powers of the first five Heightenings, is a Splinter of Endowment. Giving away the divine Breath to another person will instantly heal that person, at the cost of the life of the Returned.</p>
-				</div>
-				<div class="type">
-					<h4>Type II</h4>
-					<p>Mindless Manifestations in a Deceased Host, also known as the Lifeless, are non-sentient reanimated human remains. They have a functioning brain, and are able to interpret old Commands and have new Commands given.</p>
-					<p>Type II entities are cheap to make, even with awkward Commands. This is due to the Law of BioChromatic Parallelism. However, Breath sticks so firmly to the construct that it is impossible to remove afterwards. They are able to be Awakened using a single Breath using the right Command, the knowledge of which was a contributing factor to the Manywar. Ichor-alcohol can also replace the blood of the remains to make the Awakening process easier.</p>
-				</div>
-				<div class="type">
-					<h4>Type III</h4>
-					<p>The process generally thought of as Awakening creates Type III entities, a BioChromatic manifestation in an organic host far removed from being alive. Examples include Awakened ropes, cloth, or skeletal remains.</p>
-					<p>Type III objects can take a great deal of Breaths, often over one hundred, to create. However, since the object being Awakened is far from being alive, the Breath can be recovered afterwards. For this reason, much more is known about the Commands to Awaken Type III entities.</p>
-					<p>Someone who has reached the Ninth Heightening is able to Awaken things like stone or steel, which were never alive. Such Awakenings require enormous amounts of Breath.</p>
-				</div>
+			<div class="type">
+				<h4>Type II</h4>
+				<p>Mindless Manifestations in a Deceased Host, also known as the Lifeless, are non-sentient reanimated human remains. They have a functioning brain, and are able to interpret old Commands and have new Commands given.</p>
+				<p>Type II entities are cheap to make, even with awkward Commands. This is due to the Law of BioChromatic Parallelism. However, Breath sticks so firmly to the construct that it is impossible to remove afterwards. They are able to be Awakened using a single Breath using the right Command, the knowledge of which was a contributing factor to the Manywar. Ichor-alcohol can also replace the blood of the remains to make the Awakening process easier.</p>
 			</div>
-				<div class="type4">
-					<h4>Type IV</h4>
-					<p>Type IV entities are Awakened objects with sentience. The only known such object, Nightblood, required Shashara to be at the Ninth Heightening and to expend one thousand Breaths.</p><br><br>
-				</div>
-
-			<div class="heightening">
-				<h3>Heightenings</h3>
-					<p>Heightening is a term used to refer to the different levels of power an Awakener may attain by accepting more Breath. Each level grants with it new abilities and powers. As the Awakener increases in power, so too does the number of Breaths required to reach the next Heightening.</p>
-			</div>
-
-			<div class="heightening-num">
-				<h4>Aura Recognition</h4>
-				<p>50 Breaths</p>
-				<h4>Perfect Pitch</h4>
-				<p>200 Breaths</p>
-				<h4>Perfect Color Recognition</h4>
-				<p>600 Breaths</p>
-				<h4>Perfect Sense Life</h4>
-				<p>1,000 Breaths</p>
-				<h4>Agelessness</h4>
-				<p>2,000 Breaths</p>
-				<h4>Instinctive Awakening</h4>
-				<p>4,000 Breaths</p>
-				<h4>Breath Recognition</h4>
-				<p>5,000 Breaths</p>
-				<h4>Command Breaking</h4>
-				<p>10,000 Breaths</p>
-				<h4>Greater Awakening</h4>
-				<p>20,000 Breaths</p>
-				<h4>Color Distortion, Perfect Invocation, Mental Command</h4>
-				<p>50,000 Breaths</p>
+			<div class="type">
+				<h4>Type III</h4>
+				<p>The process generally thought of as Awakening creates Type III entities, a BioChromatic manifestation in an organic host far removed from being alive. Examples include Awakened ropes, cloth, or skeletal remains.</p>
+				<p>Type III objects can take a great deal of Breaths, often over one hundred, to create. However, since the object being Awakened is far from being alive, the Breath can be recovered afterwards. For this reason, much more is known about the Commands to Awaken Type III entities.</p>
+				<p>Someone who has reached the Ninth Heightening is able to Awaken things like stone or steel, which were never alive. Such Awakenings require enormous amounts of Breath.</p>
 			</div>
 		</div>
+			<div class="type4">
+				<h4>Type IV</h4>
+				<p>Type IV entities are Awakened objects with sentience. The only known such object, Nightblood, required Shashara to be at the Ninth Heightening and to expend one thousand Breaths.</p><br><br>
+			</div>
 
-		<footer></footer>
+		<div class="heightening">
+			<h3>Heightenings</h3>
+				<p>Heightening is a term used to refer to the different levels of power an Awakener may attain by accepting more Breath. Each level grants with it new abilities and powers. As the Awakener increases in power, so too does the number of Breaths required to reach the next Heightening.</p>
+		</div>
+
+		<div class="heightening-num">
+			<h4>Aura Recognition</h4>
+			<p>50 Breaths</p>
+			<h4>Perfect Pitch</h4>
+			<p>200 Breaths</p>
+			<h4>Perfect Color Recognition</h4>
+			<p>600 Breaths</p>
+			<h4>Perfect Sense Life</h4>
+			<p>1,000 Breaths</p>
+			<h4>Agelessness</h4>
+			<p>2,000 Breaths</p>
+			<h4>Instinctive Awakening</h4>
+			<p>4,000 Breaths</p>
+			<h4>Breath Recognition</h4>
+			<p>5,000 Breaths</p>
+			<h4>Command Breaking</h4>
+			<p>10,000 Breaths</p>
+			<h4>Greater Awakening</h4>
+			<p>20,000 Breaths</p>
+			<h4>Color Distortion, Perfect Invocation, Mental Command</h4>
+			<p>50,000 Breaths</p>
+		</div>
+	</div>
+
+<footer></footer>
+
+<script src="js/mixitup.min.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script>
+	(function($) {          
+	    $(document).ready(function(){               
+	        $(window).scroll(function(){                          
+	            if ($(this).scrollTop() > 0) {
+	                $('.main').fadeIn(300);
+	            } else {
+	                $('.main').fadeOut(300);
+	            }
+	        });
+	        $('body').fadeIn(1000);
+	    });
+	})(jQuery);
+
+</script>
 	</body>
 
