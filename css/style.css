@@ -124,19 +124,16 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: start;
-	margin: 0 10% 0 10%;
+	margin: 5% 10% 5% 10%;
 }
 
 .world {
 	font-family: 'Cinzel';
 	font-size: 20px;
 }
-.roadmap ul {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin-top: 50px;
-	grid-gap: 10px;
-	list-style-type: none;
+
+.roadmap p {
+	font-family: 'Cinzel';
 }
 
 .fa-long-arrow-alt-down {
@@ -658,7 +655,7 @@ footer {
 
 	p {
 		font-family: 'Lato';
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 	h1.title{ 
@@ -680,24 +677,32 @@ footer {
 		font-size: 16px;
 	}
 
-	.world {
-		font-size: 12px;
+	.roadmap {
+		grid-template-columns: 1fr;
+		grid-row-gap: 5%;
 	}
 
 	.roadmap a {
-		font-size: 8px;
+		padding: 5%;
+	}
+
+	.fas {
+		padding: 3%;
+	}
+
+	.author_note {
+		margin-top: 30%;
 	}
 
 	/*Main stuff for Book series pages*/
 	.summary {
-		display: grid;
-		font-size: 10px;
+		flex-wrap: wrap;
 		padding: 2%;
 		text-align: center;
 		border: solid 2px;
 		border-radius: 5px;
 		line-height: 15px;
-		height: 100px;
+		height: 300px;
 		overflow: auto;
 	}
 
