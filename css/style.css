@@ -258,6 +258,10 @@ footer {
 	height: 100vh;
 }
 
+.aondor {
+	text-align: center;
+}
+
 .aon {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -265,25 +269,22 @@ footer {
 	margin-left: 10%;
 	grid-row-gap: 20px; 
 	margin-top: 3%;
-} 
+}
 
 .spell {
 	flex-direction: column;
 	text-align: center;
-	height: 75%;
+	height: 30vh;
 }
 
-.back {
-	background-color: #ffbc00;
+.elan-back {
 	overflow: auto;
 }
 
 .aon img {
 	display: block;
     margin: auto;
-    top: 50%;
-    bottom: 50%;
-    width: 50%;
+    height: 10vh;
 }
 
  /*Warbreaker*/
@@ -333,6 +334,42 @@ footer {
 }
 .stormlight-color {
 	border-color: #b3ffff;
+}
+
+.surges {
+	display: grid;
+	grid-template-columns: .5fr 1fr 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 20px;
+}
+
+.surges h4 {
+	font-size: 18px;
+}
+
+.knights {
+	text-align: center;
+	margin: 0%;
+}
+
+.back {
+	padding: 2%;
+}
+
+.radiant {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 20px;
+	text-align: center;
+}
+
+.radiant img {
+	height: 17vh;
+}
+
+.radiant h4 {
+	font-size: 18px;
 }
 
 /*About*/
@@ -440,6 +477,8 @@ footer {
 		border: solid 2px;
 		border-radius: 5px;
 		line-height: 15px;
+		overflow: auto;
+		height: 50vh;
 	}
 
 	.explore {
@@ -544,8 +583,32 @@ footer {
 
 	/*Stormlight Archives*/
 
+	.stormlight {
+		flex-wrap: wrap;
+	}
+
+	.stormlight h3 {
+		font-size: 18px;
+	}
+
 	.stormlight-color {
 		border-color: #b3ffff;
+	}
+
+	.surges h4 {
+		font-size: 16px;
+	}
+
+	.knights {
+		flex-wrap: wrap;
+	}
+
+	.radiant {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.radiant img {
+		height: 5vh;
 	}
 
 	/*About*/
@@ -634,6 +697,8 @@ footer {
 		border: solid 2px;
 		border-radius: 5px;
 		line-height: 15px;
+		height: 100px;
+		overflow: auto;
 	}
 
 	.images {
@@ -749,6 +814,25 @@ footer {
 
 	.stormlight-color {
 		border-color: #b3ffff;
+	}
+
+	.surges h4 {
+		font-size: 10px;
+		grid-template-columns: .25fr 1fr 1fr; 
+		grid-column-gap: 5px;
+	}
+
+	.knights {
+		margin: 0%;
+		flex-wrap: wrap;
+	}
+
+	.radiant h4 {
+		font-size: 12px;
+	}
+
+	.radiant img {
+		height: 10vh;
 	}
 
 	/*About*/
