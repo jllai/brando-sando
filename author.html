@@ -76,13 +76,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
-	(function($) {          
-	    $(document).ready(function(){               
-	        $('body').fadeIn(1000);
-	    });
-	})(jQuery);
-
-</script>
+		(function($) {          
+		    $(document).ready(function(){                    
+		        $(window).scroll(function(){                          
+		            if ($(this).scrollTop() > 0) {
+		                $('.main').fadeIn(300);
+		            } else {
+		                $('.main').fadeOut(300);
+		            }
+		        });
+		        $('body').fadeIn(1000);
+		    });
+		})(jQuery);
+	</script>
 
 
 </body>
