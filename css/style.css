@@ -363,6 +363,7 @@ footer {
 }
 
 .radiant {
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-column-gap: 5%;
@@ -663,12 +664,12 @@ footer {
 	}
 
 	h4 {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	p {
 		font-family: 'Lato';
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	h1.title{ 
@@ -782,7 +783,12 @@ footer {
 	}
 
 	.aondor {
+		flex-wrap: wrap;
 		margin-bottom: 50px;
+	}
+
+	.aondor h3 {
+		text-align: center;
 	}
 
 	.aon {
@@ -813,7 +819,7 @@ footer {
 	}
 	.breath-types{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 		margin: 3%;
 		grid-row-gap: 25px; 
 	}
