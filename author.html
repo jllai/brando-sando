@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Brandon Sanderson - About</title>
+	<link rel="icon" href="img/cosmere_icon.png">
 
 	<!-- Google Fonts -->	
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
@@ -14,6 +15,10 @@
 	<!-- Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,18 +27,20 @@
 
 <body>
 	<!-- Responsive Nav Bar -->
-	<nav class="main nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	   		<span class="navbar-toggler-icon"></span>
+	<nav style="display: block" class="main bran nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	   		<img src="img/cosmere_icon.png" alt="top icon">
 	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   		<div class="navbar-nav">
   			<a class="nav-item nav-link" href="index.html">Home</a>
 			<a class="nav-item nav-link" href="mistborn.html">Mistborn</a>
 			<a class="nav-item nav-link" href="elantris.html">Elantris</a>
-			<a class="nav-item nav-link" href="warbreaker.html">Warbreaker</a>
+			<a class="nav-item nav-link " href="warbreaker.html">Warbreaker</a>
 			<a class="nav-item nav-link" href="sa.html">Stormlight Archives</a>
 			<a class="nav-item nav-link active" href="author.html">About the Author</a>
 	  	</div>
+	  </div>
 	</nav>
 	
 	<h1 class="section-headers brandon">About Brandon</h1>
@@ -70,11 +77,11 @@
 
 <script>
 	(function($) {          
-	    $(document).ready(function(){                    
-	        $('.main').show();
+	    $(document).ready(function(){               
+	        $('body').fadeIn(1000);
 	    });
-	    $('body').fadeIn(1000);
 	})(jQuery);
+
 </script>
 
 
