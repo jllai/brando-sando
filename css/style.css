@@ -401,6 +401,10 @@ footer {
 	padding-top: 5%;
 }
 
+.bran {
+	display: block;
+}
+
 .footer {
 	display: inline-block;
 	width: 100%;
@@ -834,10 +838,13 @@ footer {
 		border-color: #b3ffff;
 	}
 
+	.surges {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.surges h4 {
-		font-size: 10px;
-		grid-template-columns: .25fr 1fr 1fr; 
-		grid-column-gap: 5px;
+		font-size: 14px;
 	}
 
 	.knights {
@@ -874,6 +881,9 @@ footer {
 		padding-top: 5%;
 	}
 
+	.bran {
+		display: none;
+	}
 
 	.icons a {
 		font-size: 2vh;
