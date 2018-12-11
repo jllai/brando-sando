@@ -27,7 +27,7 @@
 
 <body>
 	<!-- Responsive Nav Bar -->
-	<nav class="main nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
+	<nav style="display: block" class="main bran nav nav-pills navbar nav-fill nav-justified navbar-expand-lg">   
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	   		<img src="img/cosmere_icon.png" alt="top icon">
 	  	</button>
@@ -36,7 +36,7 @@
   			<a class="nav-item nav-link" href="index.html">Home</a>
 			<a class="nav-item nav-link" href="mistborn.html">Mistborn</a>
 			<a class="nav-item nav-link" href="elantris.html">Elantris</a>
-			<a class="nav-item nav-link" href="warbreaker.html">Warbreaker</a>
+			<a class="nav-item nav-link " href="warbreaker.html">Warbreaker</a>
 			<a class="nav-item nav-link" href="sa.html">Stormlight Archives</a>
 			<a class="nav-item nav-link active" href="author.html">About the Author</a>
 	  	</div>
@@ -77,11 +77,11 @@
 
 <script>
 	(function($) {          
-	    $(document).ready(function(){                    
-	        $('.main').show();
+	    $(document).ready(function(){               
+	        $('body').fadeIn(1000);
 	    });
-	    $('body').fadeIn(1000);
 	})(jQuery);
+
 </script>
 
 
