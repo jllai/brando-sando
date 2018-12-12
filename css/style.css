@@ -91,10 +91,6 @@ nav a:hover {
 	text-decoration: none;
 }
 
-.active {
-	background-color: grey;
-}
-
 .explore {
 	text-align: center;
 	position: relative;
@@ -122,17 +118,6 @@ footer {
 	font-size: 21px;
 }
 
-.background {
-	background-image: url("../img/cos_background.png");
-	background-repeat: no-repeat;
-	background-size: 40vw;
-	top: 10%;
-	width: 100%;
-	height: 75%;
-	opacity: .02;
-	background-position: center;
-	position: fixed;
-}
 
 .roadmap {
 	text-align: center;
@@ -141,6 +126,7 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: start;
 	margin: 5% 10% 5% 10%;
+	grid-column-gap: 10%;
 }
 
 .world {
@@ -148,21 +134,25 @@ footer {
 	font-size: 20px;
 }
 
-.roadmap p {
-	font-family: 'Cinzel';
-}
-
 .fa-long-arrow-alt-down {
-	color: #007aff;
+	color: #01365b;
 }
 
 .reading {
 	font-family: 'Cinzel';
-	border: solid 1px #007aff;
+	border: solid 1px #01365b;
 	border-spacing: 25%;
     padding: 5%;
     border-radius: 5px;
-	color: #707070;	
+}
+
+.reading:hover {
+	background-color: #01365b;
+	color: white;
+}
+
+.book-desc {
+	font-family: 'Lato';
 }
 
 .author_note {
@@ -223,6 +213,7 @@ footer {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
 
 /***********Mistborn***********/
 .mist-ban {
@@ -478,15 +469,6 @@ footer {
 
 	.world {
 		font-size: 15px;
-	}
-
-	.roadmap a {
-		font-size: 12px;
-	}
-
-	.reading {
-		margin: -50px;
-	    border-radius: 5px;
 	}
 
 	.author_note {
