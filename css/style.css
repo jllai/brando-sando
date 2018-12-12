@@ -86,7 +86,7 @@ nav .nav-item {
 	color: white;
 }
 
-nav a:hover {
+a:hover {
 	color: #a1ddff;
 	text-decoration: none;
 }
@@ -131,7 +131,16 @@ footer {
 
 .world {
 	font-family: 'Cinzel';
-	font-size: 20px;
+	border-radius: 5px;
+	color: white;
+	background-color: #01365b;
+	font-size: 25px;
+	padding: 8%;
+}
+
+.world:hover {
+	background-color: #01365b;
+	color: #ffc200;
 }
 
 .fa-long-arrow-alt-down {
